@@ -1,0 +1,113 @@
+.glavn_name {
+    font-size: 55px;
+    padding-top: 5px;
+}
+
+.portal {
+    font-size: 30px;
+    padding-top: 5px;
+}
+
+.txa {
+    font-size: 18px;
+    padding: 0 200px;
+    margin: 0px;
+}
+
+.txt {
+    font-size: 23px;
+    margin: 0px;
+    padding-bottom: 0px;
+}
+
+.common {
+    background: rgba(0, 0, 0, 0.4);
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.cover {
+    width: auto;
+    margin-top: 40px;
+    display: flex;
+    background-size: cover;
+}
+
+.box_cover {
+    display: block;
+}
+
+.img_cover {
+    width: 200px;
+    height: 308px;
+}
+
+.records {
+    color: rgb(255, 255, 254);
+    text-align: justify;
+    margin: 0px 40px 0px 30px;
+}
+
+.btn {
+    font-family: 'Underdog', cursive;
+    font-weight: 500px;
+    color: rgb(255, 255, 255);
+    text-shadow: 2px 2px 1px rgba(0, 0, 0, 0.644), 0 0 2em rgb(0, 0, 0);
+    font-size: 20px;
+}
+
+.comment {
+    font-family: 'Underdog', cursive;
+    color: rgb(255, 255, 255);
+    text-shadow: 2px 2px 1px rgba(0, 0, 0, 0.644), 0 0 2em rgb(0, 0, 0);
+    font-size: 25px;
+}
+
+.Name {
+    font-family: 'Underdog', cursive;
+    font-weight: 500px;
+    color: rgb(255, 255, 255);
+    text-shadow: 2px 2px 1px rgba(0, 0, 0, 0.644), 0 0 2em rgb(0, 0, 0);
+    font-size: 25px;
+    ;
+    border-bottom: 1px dashed rgba(255, 255, 255, 0.397);
+}
+
+.inf {
+    margin-left: auto;
+    margin-right: auto;
+    font-family: 'Jura', sans-serif;
+    font-weight: 900px;
+    text-shadow: 2px 2px 1px rgba(0, 0, 0, 0.644), 0 0 2em rgb(0, 0, 0);
+    font-size: 15px;
+}
+
+.font {
+    font-size: 30px;
+}
+
+.txts {
+    font-size: 14px;
+    text-align: justify;
+}
+
+.fontcenter {
+    font-size: 30px;
+    margin: 40px 0px 20px 0px;
+}
+
+.description {
+    width: auto;
+    margin: 25px 40px 0px 40px;
+    background-size: cover;
+    color: rgb(255, 255, 255);
+    border-top: 1px dashed rgba(255, 255, 255, 0.397);
+    font-family: 'Underdog', cursive;
+}
+
+.video {
+    width: 560px;
+    height: 315px;
+    display: block;
+    margin: 0 auto;
+}

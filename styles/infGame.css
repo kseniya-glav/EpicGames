@@ -1,0 +1,28 @@
+@import url(style.css);
+@import url(infGame-desktop.css) (min-width: 1024px);
+@import url(infGame-tablet.css) (min-width: 769px) and (max-width: 1023px);
+@import url(infGame-mobile.css) (max-width: 768px);
+@import url('https://fonts.googleapis.com/css?family=Indie+Flower|Marck+Script|Underdog|Jura:500');
+body {
+  background: url("../assets/glavn/fon.png");
+}
+
+.glavn {
+  background: url("../assets/glavn/glav.jpg");
+  background-size: cover;
+  text-shadow: 2px 2px 5px rgba(0, 0, 0, 60), 0 0 1em rgb(0, 0, 0);
+}
+
+.glavn_name {
+  font-family: "jokerman", jokerman;
+  text-shadow: 3px 5px 3px rgba(0, 0, 0, 60), 0 0 1em rgb(2, 2, 2);
+}
+
+.portal {
+  font-family: 'Underdog', cursive;
+}
+
+.txt,
+.txa {
+  font-family: 'Jura', sans-serif;
+}

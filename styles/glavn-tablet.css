@@ -1,0 +1,119 @@
+.glavn_name {
+  font-size: 55px;
+  padding-top: 5px;
+  padding-bottom: 4px;
+}
+
+.portal {
+  font-size: 30px;
+}
+
+.txt {
+  font-size: 23px;
+  padding-bottom: 10px;
+  margin: 0px;
+  padding-bottom: 20px;
+}
+
+.tx {
+  font-size: 18px;
+  padding: 0 100px;
+  margin: 0px;
+}
+
+.font {
+  font-size: 15px;
+}
+
+.boxes {
+  font-size: 35px;
+}
+
+.ramka {
+  width: 150px;
+  height: 195px;
+}
+
+.case {
+  width: 150px;
+  height: 235px;
+}
+
+.Name {
+  font-size: 11px;
+}
+
+.rzposter {
+  margin-top: 18px;
+  width: 175px;
+  font-size: 16px;
+}
+
+.rzim {
+  margin-left: 30px;
+}
+
+.comonn {
+  width: 45px !important;
+  margin-bottom: 50px;
+  height: auto;
+  margin-left: -17px;
+  margin-right: -17px;
+}
+
+.mar {
+  margin: 10px
+}
+
+.tril {
+  width: 40px !important;
+  margin-bottom: 70px;
+  height: auto;
+  margin-left: -10px;
+  margin-right: -10px;
+}
+
+.thriller_Name {
+  font-size: 17px;
+}
+
+.txt-tril {
+  font-size: 18px;
+  margin-bottom: 5px;
+}
+
+.tril-gme {
+  font-size: 35px;
+  margin-bottom: -10px;
+  margin-top: 30px
+}
+
+.img_thriller {
+  width: 250px;
+  height: 120px;
+}
+
+.holder,
+.block {
+  width: 250px;
+  height: 160px;
+}
+
+.smpage {
+  font-size: 11px;
+  width: 190px;
+}
+
+.modal-header {
+  height: auto !important;
+  margin: 0 auto;
+}
+
+.videoPlayer {
+  width: 550px;
+  height: 310px;
+}
+
+.modal-content {
+  background: black !important;
+}

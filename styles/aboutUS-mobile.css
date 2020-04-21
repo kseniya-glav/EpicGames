@@ -1,0 +1,64 @@
+.glavn_name {
+    font-size: 40px;
+}
+
+.portal {
+    font-size: 29px;
+}
+
+.hitman {
+    width: 150px;
+}
+
+.txt {
+    font-size: 14px;
+}
+
+.font {
+    font-size: 34px;
+}
+
+.headers {
+    font-size: 18px;
+}
+
+.txt_inf {
+    font-size: 12px;
+}
+
+.txt_content {
+    font-size: 11px;
+}
+
+.end {
+    font-size: 23px;
+}
+
+.gif {
+    width: 200px;
+}
+
+.riviews {
+    width: 210px;
+}
+
+.txt-riviews {
+    font-size: 30px;
+}
+
+.breadcrumb {
+    font-size: 14px
+}
+
+.img_employes {
+    width: 100px;
+}
+
+.name-employes,
+.txt-employes {
+    font-size: 27px;
+}
+
+.we {
+    padding-right: 0px !important;
+}

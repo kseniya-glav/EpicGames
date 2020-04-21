@@ -1,0 +1,143 @@
+@import url(style.css);
+@import url(ganre-desktop.css) (min-width: 1024px);
+@import url(ganre-tablet.css) (min-width: 769px) and (max-width: 1023px);
+@import url(ganre-mobile.css) (max-width: 768px);
+@import url('https://fonts.googleapis.com/css?family=Indie+Flower|Marck+Script|Underdog|Jura:500');
+body {
+  background: url("../assets/glavn/fon.png");
+}
+
+.glavn {
+  background: url("../assets/games/header-mods.jpg");
+  background-size: cover;
+  text-shadow: 2px 2px 5px rgba(0, 0, 0, 60), 0 0 1em rgb(0, 0, 0);
+}
+
+.txt,
+.txa {
+  font-family: 'Jura', sans-serif;
+}
+
+.glavn_name {
+  font-family: "jokerman", jokerman;
+  text-shadow: 3px 5px 3px rgba(0, 0, 0, 60), 0 0 1em rgb(2, 2, 2);
+}
+
+.portal {
+  font-family: 'Underdog', cursive;
+  margin: 0px;
+}
+
+.black {
+  background: rgba(0, 0, 0, 0.3);
+}
+
+.ganre {
+  font-size: 15px;
+  text-shadow: 2px 2px 1px rgba(0, 0, 0, 0.644), 0 0 1em rgb(42, 84, 199);
+  background: rgba(0, 0, 255, 0.4);
+}
+
+.name_game {
+  text-shadow: 2px 2px 1px rgba(0, 0, 0, 0.644), 0 0 1em rgb(42, 84, 199);
+}
+
+.block {
+  display: none;
+  color: rgb(255, 255, 255);
+  position: absolute;
+  background: rgba(0, 0, 0, 0.6);
+  font-family: 'Underdog', cursive;
+}
+
+.holder:hover .block {
+  display: block;
+  border: none
+}
+
+.holder {
+  position: relative;
+  margin: 0px 20px 40px 20px;
+}
+
+.flex {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-top: 15px;
+  padding-bottom: 20px;
+  margin-bottom: 35px;
+}
+
+.text,
+input[type="checkbox"] {
+  display: none;
+  font-family: 'Jura', sans-serif;
+}
+
+.btn {
+  margin: 0px;
+  border: none;
+  display: inline-block;
+  font-weight: normal;
+  position: relative;
+  z-index: 1;
+  background: rgb(85, 191, 233);
+  text-decoration: none !important;
+  transition: all .5s
+}
+
+.btn:after {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1;
+  width: 0;
+  height: 100%;
+  background: rgb(122, 122, 122);
+  transition: all .5s
+}
+
+.btn:hover {
+  text-decoration: none;
+  color: #fff !important
+}
+
+.btn:hover:after {
+  width: 100%
+}
+
+.poisk {
+  width: 25px;
+}
+
+.title {
+  color: rgb(255, 255, 255)
+}
+
+.bar {
+  margin: 32px auto 0 auto;
+  display: flex;
+  background-image: -webkit-linear-gradient(top, rgb(85, 191, 233), rgb(85, 191, 233));
+  background-image: -moz-linear-gradient(top, rgb(85, 191, 233)7, rgb(85, 191, 233));
+  background-image: linear-gradient(top, rgb(85, 191, 233), rgb(85, 191, 233));
+  width: 240px;
+  box-shadow: 0 1px 1px #ccc;
+}
+
+.bar input {
+  background: #fff no-repeat 13px 13px;
+  width: 100%;
+  box-shadow: 0 2px 8px #c4c4c4 inset;
+  font-size: 14px;
+  font-weight: bold;
+  outline: none;
+  text-indent: 10px;
+}
+
+.grow:hover {
+  -webkit-transform: scale(1.1);
+  -ms-transform: scale(1.1);
+  transform: scale(1.1);
+}

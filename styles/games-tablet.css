@@ -1,0 +1,41 @@
+.glavn_name {
+    font-size: 55px;
+    padding-top: 5px;
+}
+
+.portal {
+    font-size: 30px;
+    padding-top: 5px;
+}
+
+.txa {
+    font-size: 18px;
+    padding: 0 200px;
+    margin: 0px;
+}
+
+.txt {
+    font-size: 23px;
+    margin: 0px;
+    padding-bottom: 0px;
+}
+
+.img_cover {
+    width: 170px;
+    height: 200px;
+}
+
+.holder {
+    width: 172px;
+    height: 263px;
+    font-size: 30px;
+}
+
+.name_game {
+    font-size: 14px;
+}
+
+.block {
+    width: 170px;
+    height: 258px;
+}

@@ -1,0 +1,30 @@
+#toTop {
+	position:fixed;
+	bottom:112px;
+	right:30px;
+	overflow:hidden;
+	width:61px;
+	height:61px;
+	text-indent:100%;
+	background:url(../assets/ui.totop.png) no-repeat left top;
+	border: 5px solid rgb(255, 255, 255);
+	border-radius: 20px;
+}
+
+#toTopHover {
+	background:url(../assets/ui.totop.png) no-repeat left -300px;
+	width:51px;
+	height:51px;
+	display:block;
+	overflow:hidden;
+	float:left;
+	opacity: 0;
+	-moz-opacity: 0;
+	filter:alpha(opacity=0);
+	border: 5px solid rgb(255, 255, 255);
+	border-radius: 14px;
+}
+
+#toTop:active, #toTop:focus {
+	outline:none;
+}

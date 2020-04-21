@@ -1,0 +1,68 @@
+.glavn_name {
+    font-size: 65px;
+}
+
+.portal {
+    font-size: 40px;
+}
+
+.txt {
+    font-size: 21px;
+}
+
+.box_cover {
+    margin: 22px 20px 0px 20px;
+}
+
+.calendar-games {
+    padding-bottom: 20px;
+}
+
+.winter,
+.spring,
+.summer,
+.autumn {
+    width: 1025px;
+}
+
+.carousel-indicators {
+    bottom: -43px !important;
+}
+
+.carousel-control-prev {
+    height: 70px;
+    margin-left: 280px;
+    padding-left: 100px;
+}
+
+.carousel-control-next {
+    height: 70px;
+    margin-right: 280px;
+    padding-right: 100px;
+}
+
+.opacitynon {
+    margin-bottom: 20px;
+}
+
+.img_cover {
+    width: 199px;
+}
+
+.name_rec {
+    width: 200px;
+}
+
+.holder {
+    width: 202px;
+    height: 370px;
+}
+
+.block {
+    width: 198px;
+    height: 370px;
+}
+
+.expected {
+    justify-content: center;
+}

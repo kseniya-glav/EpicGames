@@ -1,0 +1,105 @@
+.glavn_name {
+    font-size: 65px;
+}
+
+.portal {
+    font-size: 40px;
+    padding-top: 15px;
+}
+
+.txa {
+    font-size: 21px;
+    padding: 0 320px;
+    margin: 0px;
+}
+
+.txt {
+    font-size: 25px;
+    margin: 0px;
+    padding-bottom: 5px;
+}
+
+.common {
+    background: rgba(0, 0, 0, 0.4);
+}
+
+.cover {
+    margin-top: 30px;
+    display: flex;
+}
+
+.box_cover {
+    display: block;
+}
+
+.img_cover {
+    width: 200px;
+    height: 308px;
+}
+
+.records {
+    color: rgb(255, 255, 254);
+    text-align: justify;
+}
+
+.btn {
+    font-family: 'Underdog', cursive;
+    font-weight: 500px;
+    color: rgb(255, 255, 255);
+    text-shadow: 2px 2px 1px rgba(0, 0, 0, 0.644), 0 0 2em rgb(0, 0, 0);
+    font-size: 20px;
+}
+
+.comment {
+    font-family: 'Underdog', cursive;
+    color: rgb(255, 255, 255);
+    text-shadow: 2px 2px 1px rgba(0, 0, 0, 0.644), 0 0 2em rgb(0, 0, 0);
+    font-size: 25px;
+}
+
+.Name {
+    font-family: 'Underdog', cursive;
+    font-weight: 500px;
+    color: rgb(255, 255, 255);
+    text-shadow: 2px 2px 1px rgba(0, 0, 0, 0.644), 0 0 2em rgb(0, 0, 0);
+    font-size: 25px;
+    border-bottom: 1px dashed rgba(255, 255, 255, 0.397);
+}
+
+.inf {
+    margin-left: auto;
+    margin-right: auto;
+    font-family: 'Jura', sans-serif;
+    font-weight: 900px;
+    text-shadow: 2px 2px 1px rgba(0, 0, 0, 0.644), 0 0 2em rgb(0, 0, 0);
+    font-size: 15px;
+}
+
+.font {
+    font-size: 30px;
+}
+
+.txts {
+    font-size: 14px;
+    text-align: justify;
+}
+
+.fontcenter {
+    font-size: 30px;
+    margin: 40px 0px 20px 0px;
+}
+
+.description {
+    width: auto;
+    background-size: cover;
+    color: rgb(255, 255, 255);
+    border-top: 1px dashed rgba(255, 255, 255, 0.397);
+    font-family: 'Underdog', cursive;
+}
+
+.video {
+    width: 560px;
+    height: 315px;
+    display: block;
+    margin: 0 auto;
+}

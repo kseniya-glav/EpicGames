@@ -1,0 +1,69 @@
+@import url(style.css);
+@import url(games-desktop.css) (min-width: 1024px);
+@import url(games-tablet.css) (min-width: 769px) and (max-width: 1023px);
+@import url(games-mobile.css) (max-width: 768px);
+@import url('https://fonts.googleapis.com/css?family=Indie+Flower|Marck+Script|Underdog|Jura:500');
+body {
+  background: url("../assets/glavn/fon.png");
+}
+
+.glavn {
+  background: url("../assets/games/header-mods.jpg");
+  background-size: cover;
+  text-shadow: 2px 2px 5px rgba(0, 0, 0, 60), 0 0 1em rgb(0, 0, 0);
+}
+
+.txt,
+.txa {
+  font-family: 'Jura', sans-serif;
+}
+
+.glavn_name {
+  font-family: "jokerman", jokerman;
+  text-shadow: 3px 5px 3px rgba(0, 0, 0, 60), 0 0 1em rgb(2, 2, 2);
+}
+
+.portal {
+  font-family: 'Underdog', cursive;
+  margin: 0px;
+}
+
+.black {
+  background: rgba(0, 0, 0, 0.3);
+}
+
+.ganre {
+  font-size: 15px;
+  text-shadow: 2px 2px 1px rgba(0, 0, 0, 0.644), 0 0 1em rgb(42, 84, 199);
+  background: rgba(0, 0, 255, 0.4);
+}
+
+.name_game {
+  text-shadow: 2px 2px 1px rgba(0, 0, 0, 0.644), 0 0 1em rgb(42, 84, 199);
+}
+
+.holder {
+  position: absolute;
+  font-weight: 900px;
+}
+
+.block {
+  color: rgb(255, 255, 255);
+  position: absolute;
+  display: none;
+  background: rgba(0, 0, 0, 0.6);
+  font-family: 'Underdog', cursive;
+  font-weight: 500px;
+  border-radius: 4px;
+}
+
+.holder:hover .block {
+  display: block;
+  border: none
+}
+
+.grow:hover {
+  -webkit-transform: scale(1.1);
+  -ms-transform: scale(1.1);
+  transform: scale(1.1);
+}

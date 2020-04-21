@@ -1,0 +1,53 @@
+.batton {
+    font-size: 20px;
+    text-align: center !important;
+}
+
+.logimg {
+    width: 200px;
+    height: 60px;
+}
+
+.houseimg {
+    width: 30px;
+    height: 35px;
+}
+
+.dzhostikimg,
+.calendarimg {
+    width: 30px;
+    height: 30px;
+}
+
+.aboutimg {
+    width: 60px;
+    height: 30px;
+}
+
+.dropdown-menu {
+    font-size: 15px !important;
+    position: absolute;
+    justify-content: center;
+}
+
+.dropdown-item {
+    font-size: 15px;
+    position: relative
+}
+
+.noavatar {
+    width: 30px;
+    border-radius: 10px;
+}
+
+.rounded-circle {
+    margin: 20px auto 10px auto !important;
+    display: flex;
+    align-items: center;
+}
+
+/*----П-О-Д-В-А-Л-------------------------------------------------------------------------------------------------------*/
+
+.Footer {
+    font-size: 14px;
+}

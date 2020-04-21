@@ -1,0 +1,156 @@
+@import url(style.css);
+@import url(calendar-desktop.css) (min-width: 1024px);
+@import url(calendar-tablet.css) (min-width: 769px) and (max-width: 1023px);
+@import url(calendar-mobile.css) (max-width: 768px);
+@import url('https://fonts.googleapis.com/css?family=Caveat|Indie+Flower|Marck+Script|Jura:500|Jura:500|Oswald:500|Underdog');
+body {
+    background: url("../assets/glavn/fon.png");
+}
+
+.glavn {
+    background: url("../assets/calendar/mass_effect.jpeg") no-repeat;
+    background-size: cover;
+    text-shadow: 4px 4px 2px rgba(0, 0, 0, 0.644), 0 0 5em rgb(0, 0, 0);
+}
+
+.portal {
+    font-family: 'Underdog', cursive;
+}
+
+.glavn_name {
+    font-family: "jokerman", jokerman;
+}
+
+.txt {
+    font-family: 'Jura', sans-serif;
+}
+
+.black {
+    background: rgba(0, 0, 0, 0.3);
+}
+
+.box_cover {
+    background: rgb(0, 0, 0);
+    border: 1px solid rgb(255, 255, 255);
+    border-radius: 25px 25px 20px 20px;
+    height: 375px;
+}
+
+.glavn_content {
+    background: url("../assets/calendar/mass_effect.jpeg");
+    background-size: cover;
+}
+
+.expected {
+    display: flex;
+}
+
+.calendar-games {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.winter,
+.spring,
+.summer,
+.autumn {
+    border-radius: 15px;
+    background-size: cover;
+    margin: 0 auto
+}
+
+.winter {
+    background: url("../assets/calendar/winter.jpg")no-repeat;
+    background-size: cover;
+}
+
+.spring {
+    background: url("../assets/calendar/spring.jpg")no-repeat;
+    background-size: cover;
+}
+
+.summer {
+    background: url("../assets/calendar/summer.jpg")no-repeat;
+    background-size: cover;
+}
+
+.autumn {
+    background: url("../assets/calendar/autumn.png")no-repeat;
+    background-size: cover;
+}
+
+.opacitynon {
+    position: relative;
+    font-size: 40px;
+    color: rgb(252, 249, 249);
+    text-shadow: 5px 5px 5px rgb(2, 2, 2), 0 0 6em rgb(0, 0, 0);
+}
+
+.img_cover {
+    height: 250px;
+    border-radius: 25px 25px 0px 0px;
+}
+
+.ganre {
+    color: rgb(255, 255, 255);
+    text-align: center;
+    font-size: 17px;
+    text-shadow: 2px 2px 1px rgba(0, 0, 0, 0.644), 0 0 1em rgb(42, 84, 199);
+    background: rgba(0, 0, 255, 0.8);
+    border-radius: 25px 25px 0px 0px;
+}
+
+.name_game {
+    padding: 2px;
+    font-size: 19px;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    text-shadow: 2px 2px 1px rgba(0, 0, 0, 0.644), 0 0 1em rgb(42, 84, 199);
+    background: rgba(0, 0, 0, 0.8);
+}
+
+.ext {
+    font-size: 26px;
+    font-family: 'Caveat', cursive;
+    font-weight: 700;
+    color: rgb(255, 255, 255);
+}
+
+.name_rec {
+    position: absolute;
+    display: block;
+    margin-top: -250px;
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    font-size: 13px;
+    color: rgb(252, 249, 249);
+    text-shadow: 5px 5px 5px rgb(2, 2, 2), 0 0 6em rgb(0, 0, 0);
+    border-radius: 25px 25px 0px 0px;
+}
+
+.holder {
+    position: absolute;
+    font-weight: 900px;
+    font-size: 30px;
+}
+
+.block {
+    color: rgb(255, 255, 255);
+    position: absolute;
+    border: none;
+    display: none;
+    background: rgba(0, 0, 0, 0.8);
+    font-family: 'Underdog', cursive;
+    font-weight: 500px;
+    border-radius: 25px;
+}
+
+.holder:hover .block {
+    display: block;
+}
+
+.grow:hover {
+    -webkit-transform: scale(1.04);
+    -ms-transform: scale(1.04);
+    transform: scale(1.04);
+}
